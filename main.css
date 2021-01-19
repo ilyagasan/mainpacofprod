@@ -76,10 +76,10 @@ ul li {
 }
 .menu__list{
     display: inline-flex;
+    align-items: center;
 }
 
 .menu__item {
-    vertical-align: middle;
     margin-top: 50px;
     margin-right: 50px;
 }
@@ -120,6 +120,8 @@ ul li {
 
 .contact__desc {
     font-size: 12px;
+    color:#dfb56d;
+    text-decoration-line: underline;
 }
 
 .contact--when {
@@ -179,7 +181,17 @@ ul li {
     display: inline-flex;
     justify-content: space-between;
 }
+.offers__item:nth-child(1){
+    flex: 1;
+}
 
+.offers__item:nth-child(2){
+    flex: 1;
+}
+
+.offers__item:nth-child(3){
+    flex: 1;
+}
 .offers__headercard-img {
     border-radius: 7px;
 }
@@ -353,7 +365,8 @@ ul li {
 
 .isplay,
 .pager__list {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: space-around;
     vertical-align: middle;
 }
 
@@ -443,6 +456,8 @@ ul li {
 
 .social {
     position: absolute;
+    display: inline-flex;
+    justify-content: space-around;
     left: 700px;
     width: 200px;
     height: 36px;
